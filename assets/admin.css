@@ -1,0 +1,95 @@
+.ws {
+ /* ****************************************************************************
+* 2. GRID
+*/
+  /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */ }
+  .ws .group:before,
+  .ws .group:after {
+    content: "";
+    display: table; }
+  .ws .group:after {
+    clear: both; }
+  .ws .group {
+    zoom: 1;
+    /* For IE 6/7 (trigger hasLayout) */
+    margin: 0 -15px 0 -15px;
+    height: 100%;
+    position: relative; }
+  .ws .col {
+    display: block;
+    padding: 0 15px;
+    box-sizing: border-box;
+    height: 100%;
+    float: left; }
+  .ws .col:first-child {
+    margin-left: 0; }
+  .ws .span_12_of_12 {
+    width: 100%; }
+  .ws .span_11_of_12 {
+    width: 91.53%; }
+  .ws .span_10_of_12 {
+    width: 83.06%; }
+  .ws .span_9_of_12 {
+    width: 74.6%; }
+  .ws .span_8_of_12 {
+    width: 66.13%; }
+  .ws .span_7_of_12 {
+    width: 57.66%; }
+  .ws .span_6_of_12 {
+    width: 49.2%; }
+  .ws .span_5_of_12 {
+    width: 40.73%; }
+  .ws .span_4_of_12 {
+    width: 32.26%; }
+  .ws .span_3_of_12 {
+    width: 23.8%; }
+  .ws .span_2_of_12 {
+    width: 15.33%; }
+  .ws .span_1_of_12 {
+    width: 6.86%; }
+  @media only screen and (min-width: 480px) {
+    .ws .wd-hide-large {
+      display: none; } }
+  @media only screen and (max-width: 600px) {
+    .ws .col {
+      padding: 0; }
+    .ws .span_12_of_12 {
+      width: 100%; }
+    .ws .span_11_of_12 {
+      width: 100%; }
+    .ws .span_10_of_12 {
+      width: 100%; }
+    .ws .span_9_of_12 {
+      width: 100%; }
+    .ws .span_8_of_12 {
+      width: 100%; }
+    .ws .span_7_of_12 {
+      width: 100%; }
+    .ws .span_6_of_12 {
+      width: 100%; }
+    .ws .span_5_of_12 {
+      width: 100%; }
+    .ws .span_4_of_12 {
+      width: 100%; }
+    .ws .span_3_of_12 {
+      width: 100%; }
+    .ws .span_2_of_12 {
+      width: 100%; }
+    .ws .span_1_of_12 {
+      width: 100%; }
+    .ws .tl {
+      text-align: center; }
+    .ws .tr {
+      text-align: center; } }
+  .ws .form-group {
+    margin-bottom: 15px;
+    padding: 10px; }
+  .ws .form-group.shaded {
+    background: #fafafa; }
+  .ws .field-label {
+    font-weight: 700;
+    margin-bottom: 15px; }
+  .ws .text-field {
+    line-height: 1.2;
+    padding: 7px;
+    width: 100%; }

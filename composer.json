@@ -1,0 +1,7 @@
+{
+  "require": {
+    "paypal/adaptivepayments-sdk-php":"v3.6.106",
+    "monolog/monolog": "^1.21",
+    "stripe/stripe-php": "^3.23"
+  }
+}
